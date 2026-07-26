@@ -34,5 +34,68 @@ Dataset Characteristics
 *	Training split: 80%
 *	Validation & Testing: 20%
 
+## Exploratory Data Analysis
+
+EDA was performed to better understand the dataset before training.
+The analysis included:
+*	Class distribution visualization
+*	Sample image visualization
+*	Dataset balance inspection
+
+## Data Preprocessing
+
+The preprocessing pipeline included:
+*	Image resizing (128×128)
+*	Pixel normalization (1/255)
+*	Data splitting
+*	Data shuffling
+*	ImageDataGenerator
+
+## CNN Architecture
+
+The implemented model consists of:
+Block 1
+*	Conv2D (32 Filters)
+*	Batch Normalization
+*	MaxPooling2D
+Block 2
+*	Conv2D (64 Filters)
+*	Batch Normalization
+*	MaxPooling2D
+Block 3
+*	Conv2D (128 Filters)
+*	Batch Normalization
+*	MaxPooling2D
+Fully Connected Layers
+*	Flatten
+*	Dense (256)
+*	Dropout (0.5)
+Output Layer
+*	Softmax Activation
+
+## Model Configuration
+
+| Parameter | Value |
+| :--- | :--- |
+| **Optimizer** | Adam |
+| **Loss Function** | Categorical Crossentropy |
+| **Metric** | Accuracy |
+| **Epochs** | 25 |
+| **Early Stopping** | Yes |
+
+## Results
+
+The CNN model achieved a test accuracy of 83.03% on unseen flower images.
+The evaluation included:
+*	Accuracy Curve
+*	Loss Curve
+*	Classification Report
+*	Confusion Matrix
+*	Prediction Confidence
+The model demonstrated good generalization performance on unseen flower images.
+
+
+
+
 
 
