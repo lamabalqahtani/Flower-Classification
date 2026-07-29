@@ -100,4 +100,7 @@ The model demonstrated good generalization performance on unseen flower images.
 ## Loss Curve 
 ![Model Loss](images/loss.png)
 
+## Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
 
