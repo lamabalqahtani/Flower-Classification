@@ -103,4 +103,9 @@ The model demonstrated good generalization performance on unseen flower images.
 ## Confusion Matrix
 ![Confusion Matrix](images/confusion_matrix.png)
 
+## Sample Predictions
+Prediction Example 1
+![Sample Prediction 1](images/prediction1.png)
 
+Prediction Example 2
+![Sample Prediction 2](images/prediction2.png)
