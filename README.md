@@ -94,7 +94,8 @@ The evaluation included:
 *	Prediction Confidence
 The model demonstrated good generalization performance on unseen flower images.
 
-
+## Accuracy Curve
+![Model Accuracy](images/accuracy.png)
 
 
 
