@@ -97,6 +97,7 @@ The model demonstrated good generalization performance on unseen flower images.
 ## Accuracy Curve
 ![Model Accuracy](images/accuracy.png)
 
-
+## Loss Curve 
+![Model Loss](images/loss.png)
 
 
