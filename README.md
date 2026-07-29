@@ -109,3 +109,8 @@ Prediction Example 1
 
 Prediction Example 2
 ![Sample Prediction 2](images/prediction2.png)
+
+## Project Team
+* Lama Alqahtani
+* Lojain Alahmadi
+* Reham Alhmaidi
